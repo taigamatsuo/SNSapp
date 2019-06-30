@@ -14,8 +14,9 @@ class ViewController: UIViewController {
     @IBAction func showActivityView(_ sender: UIBarButtonItem) {
         let controller = UIActivityViewController(activityItems : [imageView.image!],
                                                   applicationActivities: nil)
+        //引数にしてインスタンスを作成、controllerに格納
         self.present(controller, animated : true, completion : nil)
-    }
+    }//controllerをモーダルビューコントローラーとして表示
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

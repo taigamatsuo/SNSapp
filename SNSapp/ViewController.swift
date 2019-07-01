@@ -16,7 +16,7 @@ class ViewController: UIViewController {
                                                   applicationActivities: nil)
         //引数にしてインスタンスを作成、controllerに格納
         self.present(controller, animated : true, completion : nil)
-    }//controllerをモーダルビューコントローラーとして表示
+    }//controllerをモーダルビューコントローラーとして表示する
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

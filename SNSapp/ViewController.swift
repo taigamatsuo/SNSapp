@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBAction func showActivityView(_ sender: UIBarButtonItem) {
-        let controller = UIActivityViewController(activityItems : [imageView.image!],//引数を設定
+        let controller = UIActivityViewController(activityItems : [imageView.image!],//
                                                   applicationActivities: nil)
         //引数にしてインスタンスを作成、controllerに格納
         self.present(controller, animated : true, completion : nil)
